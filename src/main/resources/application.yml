@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: oss-backend
+
+# 阿里云OSS配置（后面换成你自己的）
+aliyun:
+  oss:
+    endpoint: oss-cn-beijing.aliyuncs.com
+    access-key-id: ${OSS_ACCESS_KEY_ID}
+    access-key-secret: ${OSS_ACCESS_KEY_SECRET}
+    bucket-name: ${OSS_BUCKET_NAME}
